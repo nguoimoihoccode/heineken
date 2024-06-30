@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw
 import streamlit as st
 import io
 import os
-import google.generativeai as genai
+
 import cv2
 import supervision as sv
 import numpy as np
@@ -10,7 +10,7 @@ from tqdm import tqdm
 from ultralytics import YOLO
 import time
 from collections import defaultdict
-from google.api_core.exceptions import ResourceExhausted
+
 from transformers import CLIPProcessor, CLIPModel,BertTokenizer
 import requests
 from ultralytics import YOLO
